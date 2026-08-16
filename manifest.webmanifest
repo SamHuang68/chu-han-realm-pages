@@ -1,0 +1,14 @@
+{
+  "name": "楚漢・弈境",
+  "short_name": "楚漢弈境",
+  "description": "象棋、暗棋與水墨連珠的私人離線棋館",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080b09",
+  "theme_color": "#080b09",
+  "lang": "zh-Hant",
+  "icons": [
+    { "src": "./favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

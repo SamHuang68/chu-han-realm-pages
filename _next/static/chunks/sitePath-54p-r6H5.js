@@ -1,0 +1,1 @@
+var e=`/chu-han-realm-pages`.replace(/\/$/,``);`https://samhuang68.github.io`.replace(/\/$/,``);function t(t){return`${e}${t.startsWith(`/`)?t:`/${t}`}`||`/`}export{t};
