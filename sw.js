@@ -1,7 +1,7 @@
-const CACHE = "realm-of-xiangqi-v12";
+const CACHE = "realm-of-xiangqi-v15";
 const BASE_PATH = new URL(self.registration.scope).pathname.replace(/\/$/, "");
 const scoped = (path) => `${BASE_PATH}${path}` || "/";
-const SHELL = ["/", "/xiangqi/", "/banqi/", "/gomoku/", "/favicon.svg", "/og.png", "/xiangqi-palace-cinematic-v1.png", "/banqi-night-court-v1.png"].map(scoped);
+const SHELL = ["/", "/xiangqi/", "/banqi/", "/gomoku/", "/mahjong13/", "/mahjong16/", "/favicon.svg", "/og.png", "/xiangqi-palace-cinematic-v1.png", "/banqi-night-court-v1.png", "/mahjong-theme-rain-salon-v2.png", "/mahjong-theme-skyline-v2.png", "/mahjong-theme-mountain-v2.png"].map(scoped);
 
 async function precacheRoute(cache, path) {
   const response = await fetch(path, { cache: "reload" });
