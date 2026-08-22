@@ -1,7 +1,7 @@
 {
   "name": "楚漢・弈境",
   "short_name": "楚漢弈境",
-  "description": "象棋、暗棋、連珠、十三張與台灣十六張的離線棋館",
+  "description": "象棋、暗棋、連珠、圍棋、十三張與台灣十六張的離線棋館",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
