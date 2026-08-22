@@ -1,0 +1,191 @@
+{
+  "_PostgameReview-CetQgSBe.js": {
+    "file": "chu-han-realm-pages/_next/static/chunks/PostgameReview-CetQgSBe.js",
+    "name": "PostgameReview",
+    "imports": [
+      "_gatekeepers-Cp3-oOla.js",
+      "_framework-Dm2LD62T.js"
+    ]
+  },
+  "_framework-Dm2LD62T.js": {
+    "file": "chu-han-realm-pages/_next/static/chunks/framework-Dm2LD62T.js",
+    "name": "framework",
+    "imports": [
+      "_rolldown-runtime-D0yXDDFE.js"
+    ]
+  },
+  "_gatekeepers-Cp3-oOla.js": {
+    "file": "chu-han-realm-pages/_next/static/chunks/gatekeepers-Cp3-oOla.js",
+    "name": "gatekeepers"
+  },
+  "_persistence-iPo1W4AP.js": {
+    "file": "chu-han-realm-pages/_next/static/chunks/persistence-iPo1W4AP.js",
+    "name": "persistence"
+  },
+  "_rolldown-runtime-D0yXDDFE.js": {
+    "file": "chu-han-realm-pages/_next/static/chunks/rolldown-runtime-D0yXDDFE.js",
+    "name": "rolldown-runtime"
+  },
+  "_sitePath-CXwsywWg.js": {
+    "file": "chu-han-realm-pages/_next/static/chunks/sitePath-CXwsywWg.js",
+    "name": "sitePath"
+  },
+  "_xiangqiSceneConfig-DO0pTsLs.js": {
+    "file": "chu-han-realm-pages/_next/static/chunks/xiangqiSceneConfig-DO0pTsLs.js",
+    "name": "xiangqiSceneConfig"
+  },
+  "app/MahjongGame.tsx": {
+    "file": "chu-han-realm-pages/_next/static/chunks/MahjongGame-BhPGwOWF.js",
+    "name": "MahjongGame",
+    "src": "app/MahjongGame.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-D0yXDDFE.js",
+      "_PostgameReview-CetQgSBe.js",
+      "_gatekeepers-Cp3-oOla.js",
+      "_sitePath-CXwsywWg.js",
+      "_framework-Dm2LD62T.js"
+    ],
+    "css": [
+      "chu-han-realm-pages/_next/static/css/MahjongGame.DeYF5XrT.css"
+    ]
+  },
+  "app/RegisterServiceWorker.tsx": {
+    "file": "chu-han-realm-pages/_next/static/chunks/RegisterServiceWorker-5Z2osJk0.js",
+    "name": "RegisterServiceWorker",
+    "src": "app/RegisterServiceWorker.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-D0yXDDFE.js",
+      "_sitePath-CXwsywWg.js",
+      "_framework-Dm2LD62T.js"
+    ]
+  },
+  "app/XiangqiScene.tsx": {
+    "file": "chu-han-realm-pages/_next/static/chunks/XiangqiScene-BmMIdUQb.js",
+    "name": "XiangqiScene",
+    "src": "app/XiangqiScene.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-D0yXDDFE.js",
+      "_xiangqiSceneConfig-DO0pTsLs.js",
+      "_sitePath-CXwsywWg.js",
+      "_framework-Dm2LD62T.js"
+    ]
+  },
+  "app/banqi/page.tsx": {
+    "file": "chu-han-realm-pages/_next/static/chunks/page-DODrmeL_.js",
+    "name": "page",
+    "src": "app/banqi/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-D0yXDDFE.js",
+      "_PostgameReview-CetQgSBe.js",
+      "_gatekeepers-Cp3-oOla.js",
+      "_sitePath-CXwsywWg.js",
+      "_framework-Dm2LD62T.js"
+    ],
+    "css": [
+      "chu-han-realm-pages/_next/static/css/page.BDour7mP.css"
+    ]
+  },
+  "app/go/page.tsx": {
+    "file": "chu-han-realm-pages/_next/static/chunks/page-_DXxLam_.js",
+    "name": "page",
+    "src": "app/go/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-D0yXDDFE.js",
+      "_PostgameReview-CetQgSBe.js",
+      "_gatekeepers-Cp3-oOla.js",
+      "_sitePath-CXwsywWg.js",
+      "_framework-Dm2LD62T.js"
+    ],
+    "css": [
+      "chu-han-realm-pages/_next/static/css/page.CTu_8VsN.css"
+    ]
+  },
+  "app/gomoku/page.tsx": {
+    "file": "chu-han-realm-pages/_next/static/chunks/page-lEsHd_sw.js",
+    "name": "page",
+    "src": "app/gomoku/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-D0yXDDFE.js",
+      "_PostgameReview-CetQgSBe.js",
+      "_gatekeepers-Cp3-oOla.js",
+      "_sitePath-CXwsywWg.js",
+      "_framework-Dm2LD62T.js"
+    ],
+    "css": [
+      "chu-han-realm-pages/_next/static/css/page.DTGhmhLF.css"
+    ]
+  },
+  "app/page.tsx": {
+    "file": "chu-han-realm-pages/_next/static/chunks/page-DVIi8i3e.js",
+    "name": "page",
+    "src": "app/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-D0yXDDFE.js",
+      "_gatekeepers-Cp3-oOla.js",
+      "_persistence-iPo1W4AP.js",
+      "_sitePath-CXwsywWg.js",
+      "_framework-Dm2LD62T.js"
+    ]
+  },
+  "app/xiangqi/page.tsx": {
+    "file": "chu-han-realm-pages/_next/static/chunks/page-CU2ysm9w.js",
+    "name": "page",
+    "src": "app/xiangqi/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-D0yXDDFE.js",
+      "virtual:vinext-app-browser-entry",
+      "_PostgameReview-CetQgSBe.js",
+      "_xiangqiSceneConfig-DO0pTsLs.js",
+      "_gatekeepers-Cp3-oOla.js",
+      "_persistence-iPo1W4AP.js",
+      "_sitePath-CXwsywWg.js",
+      "_framework-Dm2LD62T.js"
+    ],
+    "dynamicImports": [
+      "app/XiangqiScene.tsx"
+    ],
+    "css": [
+      "chu-han-realm-pages/_next/static/css/page.3sbMVmug.css"
+    ]
+  },
+  "node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-CB83Luii.js",
+    "name": "layout-segment-context",
+    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-D0yXDDFE.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-Dm2LD62T.js"
+    ]
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "chu-han-realm-pages/_next/static/chunks/index-CjpXN_sI.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-D0yXDDFE.js",
+      "_framework-Dm2LD62T.js"
+    ],
+    "dynamicImports": [
+      "virtual:vinext-app-browser-entry",
+      "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "app/RegisterServiceWorker.tsx",
+      "app/MahjongGame.tsx",
+      "app/gomoku/page.tsx",
+      "app/page.tsx",
+      "app/banqi/page.tsx",
+      "app/go/page.tsx",
+      "app/xiangqi/page.tsx"
+    ]
+  }
+}
