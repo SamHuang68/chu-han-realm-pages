@@ -43,7 +43,7 @@
     "name": "xiangqiSceneConfig"
   },
   "app/GameMusic.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-D649oIVz.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-ytYF0vAG.js",
     "name": "GameMusic",
     "src": "app/GameMusic.tsx",
     "isDynamicEntry": true,
@@ -54,7 +54,7 @@
     ]
   },
   "app/MahjongGame.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/MahjongGame-vWzo56ux.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/MahjongGame-C8lI8Fsp.js",
     "name": "MahjongGame",
     "src": "app/MahjongGame.tsx",
     "isDynamicEntry": true,
@@ -66,7 +66,7 @@
       "_framework-Dm2LD62T.js"
     ],
     "css": [
-      "chu-han-realm-pages/_next/static/css/MahjongGame.CEgcwxPq.css"
+      "chu-han-realm-pages/_next/static/css/MahjongGame.DUxoVeKr.css"
     ]
   },
   "app/RegisterServiceWorker.tsx": {
@@ -154,7 +154,7 @@
     ]
   },
   "app/xiangqi/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-CzrFclAc.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-CwWdY991.js",
     "name": "page",
     "src": "app/xiangqi/page.tsx",
     "isDynamicEntry": true,
@@ -176,7 +176,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-DCV_ZLhe.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-BngvGHFJ.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -188,7 +188,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "chu-han-realm-pages/_next/static/chunks/index-D_gH5K7V.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/index-BgmH1mwF.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
