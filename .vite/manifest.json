@@ -47,7 +47,7 @@
     "name": "xiangqiSceneConfig"
   },
   "app/GameMusic.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-Ctv_w9Yr.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-BjkNv8UN.js",
     "name": "GameMusic",
     "src": "app/GameMusic.tsx",
     "isDynamicEntry": true,
@@ -158,7 +158,7 @@
     ]
   },
   "app/spirit-maze/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-B32H_811.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-D1LGa3OI.js",
     "name": "page",
     "src": "app/spirit-maze/page.tsx",
     "isDynamicEntry": true,
@@ -169,11 +169,11 @@
       "_framework-Dm2LD62T.js"
     ],
     "css": [
-      "chu-han-realm-pages/_next/static/css/page.gmwC-hW6.css"
+      "chu-han-realm-pages/_next/static/css/page.DHl437MG.css"
     ]
   },
   "app/tank-battle/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-BkaBPATk.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-Bhvy1cwq.js",
     "name": "page",
     "src": "app/tank-battle/page.tsx",
     "isDynamicEntry": true,
@@ -184,11 +184,11 @@
       "_framework-Dm2LD62T.js"
     ],
     "css": [
-      "chu-han-realm-pages/_next/static/css/page.N-Vwpxuy.css"
+      "chu-han-realm-pages/_next/static/css/page.DHagKqY3.css"
     ]
   },
   "app/xiangqi/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-DWr6MGkI.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-Dp2P63wV.js",
     "name": "page",
     "src": "app/xiangqi/page.tsx",
     "isDynamicEntry": true,
@@ -210,7 +210,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-CAPybx3p.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-BaiTPi56.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -222,7 +222,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "chu-han-realm-pages/_next/static/chunks/index-9gvOoqcM.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/index-C8FwqIte.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
