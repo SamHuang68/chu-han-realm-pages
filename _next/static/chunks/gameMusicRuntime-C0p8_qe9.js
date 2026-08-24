@@ -1,1 +1,0 @@
-var e=`realm:game-music-scene`,t=`realm:game-music-start`,n={};function r(t){n[t.gameId]=t,window.dispatchEvent(new CustomEvent(e,{detail:t}))}function i(e){return n[e]}function a(e){window.__realmStartGameMusic?.(e),window.dispatchEvent(new CustomEvent(t,{detail:e}))}export{a,r as i,t as n,i as r,e as t};
