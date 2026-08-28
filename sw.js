@@ -1,7 +1,7 @@
-const CACHE = "realm-of-xiangqi-v16";
+const CACHE = "realm-of-xiangqi-v17";
 const BASE_PATH = new URL(self.registration.scope).pathname.replace(/\/$/, "");
 const scoped = (path) => `${BASE_PATH}${path}` || "/";
-const SHELL = ["/", "/xiangqi/", "/banqi/", "/gomoku/", "/go/", "/mahjong13/", "/mahjong16/", "/spirit-maze/", "/tank-battle/", "/favicon.svg", "/og.png", "/og-go.png", "/xiangqi-palace-cinematic-v1.png", "/banqi-night-court-v1.png", "/mahjong-theme-rain-salon-v2.png", "/mahjong-theme-skyline-v2.png", "/mahjong-theme-mountain-v2.png", "/spirit-maze-sanctuary-v1.png", "/tank-battle-frontier-v1.png"].map(scoped);
+const SHELL = ["/", "/xiangqi/", "/banqi/", "/gomoku/", "/go/", "/mahjong13/", "/mahjong16/", "/spirit-maze/", "/tank-battle/", "/billiards/", "/favicon.svg", "/og.png", "/og-go.png", "/xiangqi-palace-cinematic-v1.png", "/banqi-night-court-v1.png", "/mahjong-theme-rain-salon-v2.png", "/mahjong-theme-skyline-v2.png", "/mahjong-theme-mountain-v2.png", "/spirit-maze-sanctuary-v1.png", "/tank-battle-frontier-v1.png", "/billiards-night-club-v1.png"].map(scoped);
 
 async function precacheRoute(cache, path) {
   const response = await fetch(path, { cache: "reload" });

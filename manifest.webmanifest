@@ -1,7 +1,7 @@
 {
   "name": "楚漢・弈境",
   "short_name": "楚漢弈境",
-  "description": "六座棋桌、兩座原創街機戰場與百關戰役的離線遊戲館",
+  "description": "七座賽桌、兩座原創街機戰場與百關戰役的九遊戲離線館",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
