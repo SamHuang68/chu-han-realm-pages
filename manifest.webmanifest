@@ -1,7 +1,7 @@
 {
-  "name": "楚漢・弈境",
-  "short_name": "楚漢弈境",
-  "description": "七座賽桌、兩座原創街機戰場與百關戰役的九遊戲離線館",
+  "name": "多元遊戲大廳",
+  "short_name": "多元遊戲",
+  "description": "3D 棋盤對弈、美式撞球、街機冒險與裝甲戰線多元互動遊戲大廳",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
