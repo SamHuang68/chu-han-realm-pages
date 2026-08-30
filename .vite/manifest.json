@@ -15,8 +15,8 @@
       "_framework-Dm2LD62T.js"
     ]
   },
-  "_arcadeFeedback-DUUerygx.js": {
-    "file": "chu-han-realm-pages/_next/static/chunks/arcadeFeedback-DUUerygx.js",
+  "_arcadeFeedback-D4LFJEiw.js": {
+    "file": "chu-han-realm-pages/_next/static/chunks/arcadeFeedback-D4LFJEiw.js",
     "name": "arcadeFeedback"
   },
   "_framework-Dm2LD62T.js": {
@@ -42,8 +42,8 @@
       "_framework-Dm2LD62T.js"
     ]
   },
-  "_persistence-Bq5cxRNY.js": {
-    "file": "chu-han-realm-pages/_next/static/chunks/persistence-Bq5cxRNY.js",
+  "_persistence-RcK_CMNE.js": {
+    "file": "chu-han-realm-pages/_next/static/chunks/persistence-RcK_CMNE.js",
     "name": "persistence"
   },
   "_rolldown-runtime-D0yXDDFE.js": {
@@ -59,7 +59,7 @@
     "name": "xiangqiSceneConfig"
   },
   "app/GameMusic.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-BI3fkwUL.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-Dpz2E4aC.js",
     "name": "GameMusic",
     "src": "app/GameMusic.tsx",
     "isDynamicEntry": true,
@@ -166,8 +166,20 @@
       "_framework-Dm2LD62T.js"
     ]
   },
+  "app/chess/page.tsx": {
+    "file": "chu-han-realm-pages/_next/static/chunks/page-EcotmXgQ.js",
+    "name": "page",
+    "src": "app/chess/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-D0yXDDFE.js",
+      "_gatekeepers-DlgxF1na.js",
+      "_sitePath-CXwsywWg.js",
+      "_framework-Dm2LD62T.js"
+    ]
+  },
   "app/go/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-CGtH1Hm5.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-3sTJCutM.js",
     "name": "page",
     "src": "app/go/page.tsx",
     "isDynamicEntry": true,
@@ -185,7 +197,7 @@
     ]
   },
   "app/gomoku/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-B9XltSz_.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-C03Sh_z5.js",
     "name": "page",
     "src": "app/gomoku/page.tsx",
     "isDynamicEntry": true,
@@ -203,20 +215,20 @@
     ]
   },
   "app/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-CjWVl9MD.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-BWxWx_Mu.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-D0yXDDFE.js",
       "_gatekeepers-DlgxF1na.js",
-      "_persistence-Bq5cxRNY.js",
+      "_persistence-RcK_CMNE.js",
       "_sitePath-CXwsywWg.js",
       "_framework-Dm2LD62T.js"
     ]
   },
   "app/reversi/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-DEJJX6Lb.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-D0v8IUXu.js",
     "name": "page",
     "src": "app/reversi/page.tsx",
     "isDynamicEntry": true,
@@ -228,7 +240,7 @@
     ]
   },
   "app/sokoban/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-WSfXjj2U.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-5k5fIEBO.js",
     "name": "page",
     "src": "app/sokoban/page.tsx",
     "isDynamicEntry": true,
@@ -239,13 +251,13 @@
     ]
   },
   "app/spirit-maze/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-xSlYYn7C.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-C8vch6Qj.js",
     "name": "page",
     "src": "app/spirit-maze/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-D0yXDDFE.js",
-      "_arcadeFeedback-DUUerygx.js",
+      "_arcadeFeedback-D4LFJEiw.js",
       "_gameMusicRuntime-BPc4_5Io.js",
       "_sitePath-CXwsywWg.js",
       "_framework-Dm2LD62T.js"
@@ -254,14 +266,25 @@
       "chu-han-realm-pages/_next/static/css/page.HyBRqWVw.css"
     ]
   },
+  "app/sudoku/page.tsx": {
+    "file": "chu-han-realm-pages/_next/static/chunks/page-OFdeJCsW.js",
+    "name": "page",
+    "src": "app/sudoku/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-D0yXDDFE.js",
+      "_sitePath-CXwsywWg.js",
+      "_framework-Dm2LD62T.js"
+    ]
+  },
   "app/tank-battle/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-E0ozQcs4.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-DZDHpXF5.js",
     "name": "page",
     "src": "app/tank-battle/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-D0yXDDFE.js",
-      "_arcadeFeedback-DUUerygx.js",
+      "_arcadeFeedback-D4LFJEiw.js",
       "_gameMusicRuntime-BPc4_5Io.js",
       "_sitePath-CXwsywWg.js",
       "_framework-Dm2LD62T.js"
@@ -270,8 +293,30 @@
       "chu-han-realm-pages/_next/static/css/page.DwWq-JwU.css"
     ]
   },
+  "app/tetris/page.tsx": {
+    "file": "chu-han-realm-pages/_next/static/chunks/page-okISCLZY.js",
+    "name": "page",
+    "src": "app/tetris/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-D0yXDDFE.js",
+      "_sitePath-CXwsywWg.js",
+      "_framework-Dm2LD62T.js"
+    ]
+  },
+  "app/twenty-forty-eight/page.tsx": {
+    "file": "chu-han-realm-pages/_next/static/chunks/page-Be1__y4x.js",
+    "name": "page",
+    "src": "app/twenty-forty-eight/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-D0yXDDFE.js",
+      "_sitePath-CXwsywWg.js",
+      "_framework-Dm2LD62T.js"
+    ]
+  },
   "app/xiangqi/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-CQW9_NFV.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-DHTk8ABW.js",
     "name": "page",
     "src": "app/xiangqi/page.tsx",
     "isDynamicEntry": true,
@@ -283,7 +328,7 @@
       "_xiangqiSceneConfig-CmfPSOD7.js",
       "_gameMusicRuntime-BPc4_5Io.js",
       "_gatekeepers-DlgxF1na.js",
-      "_persistence-Bq5cxRNY.js",
+      "_persistence-RcK_CMNE.js",
       "_sitePath-CXwsywWg.js",
       "_framework-Dm2LD62T.js"
     ],
@@ -295,7 +340,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-CPguybxI.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-BZzCO3Up.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -307,7 +352,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "chu-han-realm-pages/_next/static/chunks/index-BHyDgcwg.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/index-DLZFXDgo.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -322,9 +367,13 @@
       "app/RegisterServiceWorker.tsx",
       "app/billiards/page.tsx",
       "app/MahjongGame.tsx",
+      "app/sudoku/page.tsx",
+      "app/twenty-forty-eight/page.tsx",
+      "app/tetris/page.tsx",
       "app/gomoku/page.tsx",
       "app/tank-battle/page.tsx",
       "app/sokoban/page.tsx",
+      "app/chess/page.tsx",
       "app/page.tsx",
       "app/brick-breaker/page.tsx",
       "app/spirit-maze/page.tsx",
