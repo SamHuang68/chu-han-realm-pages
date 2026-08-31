@@ -63,7 +63,7 @@
     "name": "xiangqiSceneConfig"
   },
   "app/GameMusic.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-BZv5MZm6.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-BhRnL5pl.js",
     "name": "GameMusic",
     "src": "app/GameMusic.tsx",
     "isDynamicEntry": true,
@@ -231,7 +231,7 @@
     ]
   },
   "app/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-CZUdyTpO.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-mchClie3.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
@@ -408,7 +408,7 @@
     ]
   },
   "app/xiangqi/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-BnGjNXt7.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-jP8bmMUX.js",
     "name": "page",
     "src": "app/xiangqi/page.tsx",
     "isDynamicEntry": true,
@@ -432,7 +432,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-mqBLqEM9.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-DFgW4dk7.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -444,7 +444,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "chu-han-realm-pages/_next/static/chunks/index-BCAGUj6B.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/index-HT19T8x3.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
