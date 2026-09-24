@@ -1,0 +1,55 @@
+# Cloudflare Pages only. GitHub Pages ignores this file.
+# The static export keeps basePath /chu-han-realm-pages so
+# https://samhuang68.github.io/chu-han-realm-pages/ keeps working.
+# On https://arcade.samhuang68.org/ the same files are published at the
+# apex, so serve the prefixed URLs from /* without changing the browser URL.
+# Exact page rules come first: /xiangqi 308s to /xiangqi/, and a proxied
+# 308 would drop the prefix. Point both forms at index.html.
+# https://developers.cloudflare.com/pages/configuration/redirects/
+
+/chu-han-realm-pages /index.html 200
+/chu-han-realm-pages/ /index.html 200
+/chu-han-realm-pages/banqi /banqi/index.html 200
+/chu-han-realm-pages/banqi/ /banqi/index.html 200
+/chu-han-realm-pages/bigtwo /bigtwo/index.html 200
+/chu-han-realm-pages/bigtwo/ /bigtwo/index.html 200
+/chu-han-realm-pages/billiards /billiards/index.html 200
+/chu-han-realm-pages/billiards/ /billiards/index.html 200
+/chu-han-realm-pages/brick-breaker /brick-breaker/index.html 200
+/chu-han-realm-pages/brick-breaker/ /brick-breaker/index.html 200
+/chu-han-realm-pages/chess /chess/index.html 200
+/chu-han-realm-pages/chess/ /chess/index.html 200
+/chu-han-realm-pages/go /go/index.html 200
+/chu-han-realm-pages/go/ /go/index.html 200
+/chu-han-realm-pages/gomoku /gomoku/index.html 200
+/chu-han-realm-pages/gomoku/ /gomoku/index.html 200
+/chu-han-realm-pages/mahjong13 /mahjong13/index.html 200
+/chu-han-realm-pages/mahjong13/ /mahjong13/index.html 200
+/chu-han-realm-pages/mahjong16 /mahjong16/index.html 200
+/chu-han-realm-pages/mahjong16/ /mahjong16/index.html 200
+/chu-han-realm-pages/pixel-dungeon /pixel-dungeon/index.html 200
+/chu-han-realm-pages/pixel-dungeon/ /pixel-dungeon/index.html 200
+/chu-han-realm-pages/reversi /reversi/index.html 200
+/chu-han-realm-pages/reversi/ /reversi/index.html 200
+/chu-han-realm-pages/snake /snake/index.html 200
+/chu-han-realm-pages/snake/ /snake/index.html 200
+/chu-han-realm-pages/sokoban /sokoban/index.html 200
+/chu-han-realm-pages/sokoban/ /sokoban/index.html 200
+/chu-han-realm-pages/space-invaders /space-invaders/index.html 200
+/chu-han-realm-pages/space-invaders/ /space-invaders/index.html 200
+/chu-han-realm-pages/spirit-maze /spirit-maze/index.html 200
+/chu-han-realm-pages/spirit-maze/ /spirit-maze/index.html 200
+/chu-han-realm-pages/sudoku /sudoku/index.html 200
+/chu-han-realm-pages/sudoku/ /sudoku/index.html 200
+/chu-han-realm-pages/tank-battle /tank-battle/index.html 200
+/chu-han-realm-pages/tank-battle/ /tank-battle/index.html 200
+/chu-han-realm-pages/tetris /tetris/index.html 200
+/chu-han-realm-pages/tetris/ /tetris/index.html 200
+/chu-han-realm-pages/texas-holdem /texas-holdem/index.html 200
+/chu-han-realm-pages/texas-holdem/ /texas-holdem/index.html 200
+/chu-han-realm-pages/twenty-forty-eight /twenty-forty-eight/index.html 200
+/chu-han-realm-pages/twenty-forty-eight/ /twenty-forty-eight/index.html 200
+/chu-han-realm-pages/xiangqi /xiangqi/index.html 200
+/chu-han-realm-pages/xiangqi/ /xiangqi/index.html 200
+
+/chu-han-realm-pages/* /:splat 200
