@@ -1,0 +1,32 @@
+# Cloudflare Pages. Last matching rule wins.
+# HTML and the service worker stay revalidated; hashed bundles are immutable.
+
+/sw.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+/chu-han-realm-pages/sw.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/fonts/*
+  Cache-Control: public, max-age=604800
+
+/chu-han-realm-pages/fonts/*
+  Cache-Control: public, max-age=604800
+
+/*.webp
+  Cache-Control: public, max-age=604800
+
+/chu-han-realm-pages/*.webp
+  Cache-Control: public, max-age=604800
+
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/chu-han-realm-pages/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
