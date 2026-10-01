@@ -5,10 +5,10 @@
 # path applies after the _redirects 200 rewrite. Confirm on the preview.
 #
 # /_next/static/* is intentionally NOT used. That tree also holds unhashed
-# files (og.png, hall-thumb-*.webp, fonts/*.woff2). Hashed JS/CSS get
-# immutable; unhashed static files get 7 days. chunks/* covers worker
-# chunks that live under chunks/. No separate build-id directory was in
-# the live inventory.
+# files (og.png, hall-thumb-*.webp, fonts/*.woff2). Hashed JS/CSS and the
+# two root worker files get immutable; unhashed images get 7 days.
+# Image rules use a single-segment placeholder plus an extension so they
+# do not match ai.worker-*.js / gomoku.worker-*.js or chunks/.
 
 /_next/static/chunks/*
   Cache-Control: public, max-age=31536000, immutable
@@ -22,11 +22,61 @@
 /chu-han-realm-pages/_next/static/css/*
   Cache-Control: public, max-age=31536000, immutable
 
-# One path segment only. Does not match chunks/ or css/.
-/_next/static/:file
+/_next/static/ai.worker-CWdMmKDV.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/chu-han-realm-pages/_next/static/ai.worker-CWdMmKDV.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/_next/static/gomoku.worker-ox2f9J7z.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/chu-han-realm-pages/_next/static/gomoku.worker-ox2f9J7z.js
+  Cache-Control: public, max-age=31536000, immutable
+
+# Per-build directory. Contents are _buildManifest.js and _ssgManifest.js;
+# the UUID path changes with the build, so immutable does not pin a later build.
+/_next/static/4bb46f3f-7cbc-4247-890b-113b8bcf452b/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/chu-han-realm-pages/_next/static/4bb46f3f-7cbc-4247-890b-113b8bcf452b/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# One path segment only. Does not match chunks/, css/, fonts/, or workers.
+/_next/static/:image.png
   Cache-Control: public, max-age=604800
 
-/chu-han-realm-pages/_next/static/:file
+/chu-han-realm-pages/_next/static/:image.png
+  Cache-Control: public, max-age=604800
+
+/_next/static/:image.webp
+  Cache-Control: public, max-age=604800
+
+/chu-han-realm-pages/_next/static/:image.webp
+  Cache-Control: public, max-age=604800
+
+/_next/static/:image.svg
+  Cache-Control: public, max-age=604800
+
+/chu-han-realm-pages/_next/static/:image.svg
+  Cache-Control: public, max-age=604800
+
+/_next/static/:image.jpg
+  Cache-Control: public, max-age=604800
+
+/chu-han-realm-pages/_next/static/:image.jpg
+  Cache-Control: public, max-age=604800
+
+/_next/static/:image.jpeg
+  Cache-Control: public, max-age=604800
+
+/chu-han-realm-pages/_next/static/:image.jpeg
+  Cache-Control: public, max-age=604800
+
+/_next/static/:image.gif
+  Cache-Control: public, max-age=604800
+
+/chu-han-realm-pages/_next/static/:image.gif
   Cache-Control: public, max-age=604800
 
 /_next/static/fonts/*

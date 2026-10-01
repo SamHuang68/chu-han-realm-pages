@@ -1,4 +1,4 @@
-const CACHE = "realm-of-xiangqi-v18";
+const CACHE = "realm-of-xiangqi-v19";
 const BASE_PATH = new URL(self.registration.scope).pathname.replace(/\/$/, "");
 const scoped = (path) => `${BASE_PATH}${path}` || "/";
 const SHELL = [
@@ -28,9 +28,13 @@ const SHELL = [
   "/manifest.webmanifest",
 ].map(scoped);
 
+function cacheable(response) {
+  return response.ok && response.type === "basic";
+}
+
 async function precache(cache, path) {
   const response = await fetch(path, { cache: "reload" });
-  if (!response.ok) return;
+  if (!cacheable(response)) return;
   await cache.put(path, response);
 }
 
@@ -50,15 +54,25 @@ self.addEventListener("fetch", (event) => {
   const navigation = request.mode === "navigate";
   const flight = new URL(request.url).pathname.endsWith(".rsc");
   if (navigation || flight) {
-    event.respondWith(fetch(request).then((response) => {
-      const copy = response.clone();
-      void caches.open(CACHE).then((cache) => cache.put(request, copy));
-      return response;
-    }).catch(async () => (await caches.match(request)) || (navigation ? await caches.match(scoped("/")) : undefined)));
+    event.respondWith((async () => {
+      try {
+        const response = await fetch(request);
+        if (cacheable(response)) {
+          const copy = response.clone();
+          void caches.open(CACHE).then((cache) => cache.put(request, copy));
+          return response;
+        }
+        const cached = await caches.match(request);
+        if (cached) return cached;
+        return response;
+      } catch {
+        return (await caches.match(request)) || (navigation ? await caches.match(scoped("/")) : undefined);
+      }
+    })());
     return;
   }
   event.respondWith(caches.match(request).then((cached) => cached || fetch(request).then((response) => {
-    if (response.ok) void caches.open(CACHE).then((cache) => cache.put(request, response.clone()));
+    if (cacheable(response)) void caches.open(CACHE).then((cache) => cache.put(request, response.clone()));
     return response;
   })));
 });
