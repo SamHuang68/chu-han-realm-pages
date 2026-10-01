@@ -1,0 +1,137 @@
+# Cloudflare Pages headers for the arcade static export.
+# All matching rules apply. A header set twice is joined with ", ", so
+# Cache-Control rules below do not overlap. Apex and /chu-han-realm-pages/
+# forms are both listed: it is unverified whether a rule on the prefixed
+# path applies after the _redirects 200 rewrite. Confirm on the preview.
+#
+# /_next/static/* is intentionally NOT used. That tree also holds unhashed
+# files (og.png, hall-thumb-*.webp, fonts/*.woff2). Hashed JS/CSS and the
+# two root worker files get immutable; unhashed images get 7 days.
+# Image rules use a single-segment placeholder plus an extension so they
+# do not match ai.worker-*.js / gomoku.worker-*.js or chunks/.
+
+/_next/static/chunks/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/chu-han-realm-pages/_next/static/chunks/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/_next/static/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/chu-han-realm-pages/_next/static/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/_next/static/ai.worker-CWdMmKDV.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/chu-han-realm-pages/_next/static/ai.worker-CWdMmKDV.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/_next/static/gomoku.worker-ox2f9J7z.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/chu-han-realm-pages/_next/static/gomoku.worker-ox2f9J7z.js
+  Cache-Control: public, max-age=31536000, immutable
+
+# Per-build directory. Contents are _buildManifest.js and _ssgManifest.js;
+# the UUID path changes with the build, so immutable does not pin a later build.
+/_next/static/4bb46f3f-7cbc-4247-890b-113b8bcf452b/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/chu-han-realm-pages/_next/static/4bb46f3f-7cbc-4247-890b-113b8bcf452b/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# One path segment only. Does not match chunks/, css/, fonts/, or workers.
+/_next/static/:image.png
+  Cache-Control: public, max-age=604800
+
+/chu-han-realm-pages/_next/static/:image.png
+  Cache-Control: public, max-age=604800
+
+/_next/static/:image.webp
+  Cache-Control: public, max-age=604800
+
+/chu-han-realm-pages/_next/static/:image.webp
+  Cache-Control: public, max-age=604800
+
+/_next/static/:image.svg
+  Cache-Control: public, max-age=604800
+
+/chu-han-realm-pages/_next/static/:image.svg
+  Cache-Control: public, max-age=604800
+
+/_next/static/:image.jpg
+  Cache-Control: public, max-age=604800
+
+/chu-han-realm-pages/_next/static/:image.jpg
+  Cache-Control: public, max-age=604800
+
+/_next/static/:image.jpeg
+  Cache-Control: public, max-age=604800
+
+/chu-han-realm-pages/_next/static/:image.jpeg
+  Cache-Control: public, max-age=604800
+
+/_next/static/:image.gif
+  Cache-Control: public, max-age=604800
+
+/chu-han-realm-pages/_next/static/:image.gif
+  Cache-Control: public, max-age=604800
+
+/_next/static/fonts/*
+  Cache-Control: public, max-age=604800
+
+/chu-han-realm-pages/_next/static/fonts/*
+  Cache-Control: public, max-age=604800
+
+/sw.js
+  Cache-Control: no-cache
+
+/chu-han-realm-pages/sw.js
+  Cache-Control: no-cache
+
+/manifest.webmanifest
+  Cache-Control: public, max-age=3600
+
+/chu-han-realm-pages/manifest.webmanifest
+  Cache-Control: public, max-age=3600
+
+/sitemap.xml
+  Cache-Control: public, max-age=3600
+
+/chu-han-realm-pages/sitemap.xml
+  Cache-Control: public, max-age=3600
+
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/404.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/:route/
+  Cache-Control: public, max-age=0, must-revalidate
+
+/:route/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/chu-han-realm-pages/:route/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/*.rsc
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Pages already sends nosniff and Referrer-Policy. Re-setting them would
+# join with ", ", so they are omitted.
+# Preview hosts: detach then set, so a Pages-injected noindex is not doubled.
+# Lighthouse SEO "is-crawlable" fails on these hosts by design.
+https://:project.pages.dev/*
+  ! X-Robots-Tag
+  X-Robots-Tag: noindex
+
+https://:version.:project.pages.dev/*
+  ! X-Robots-Tag
+  X-Robots-Tag: noindex
