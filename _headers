@@ -1,0 +1,87 @@
+# Cloudflare Pages headers for the arcade static export.
+# All matching rules apply. A header set twice is joined with ", ", so
+# Cache-Control rules below do not overlap. Apex and /chu-han-realm-pages/
+# forms are both listed: it is unverified whether a rule on the prefixed
+# path applies after the _redirects 200 rewrite. Confirm on the preview.
+#
+# /_next/static/* is intentionally NOT used. That tree also holds unhashed
+# files (og.png, hall-thumb-*.webp, fonts/*.woff2). Hashed JS/CSS get
+# immutable; unhashed static files get 7 days. chunks/* covers worker
+# chunks that live under chunks/. No separate build-id directory was in
+# the live inventory.
+
+/_next/static/chunks/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/chu-han-realm-pages/_next/static/chunks/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/_next/static/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/chu-han-realm-pages/_next/static/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# One path segment only. Does not match chunks/ or css/.
+/_next/static/:file
+  Cache-Control: public, max-age=604800
+
+/chu-han-realm-pages/_next/static/:file
+  Cache-Control: public, max-age=604800
+
+/_next/static/fonts/*
+  Cache-Control: public, max-age=604800
+
+/chu-han-realm-pages/_next/static/fonts/*
+  Cache-Control: public, max-age=604800
+
+/sw.js
+  Cache-Control: no-cache
+
+/chu-han-realm-pages/sw.js
+  Cache-Control: no-cache
+
+/manifest.webmanifest
+  Cache-Control: public, max-age=3600
+
+/chu-han-realm-pages/manifest.webmanifest
+  Cache-Control: public, max-age=3600
+
+/sitemap.xml
+  Cache-Control: public, max-age=3600
+
+/chu-han-realm-pages/sitemap.xml
+  Cache-Control: public, max-age=3600
+
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/404.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/:route/
+  Cache-Control: public, max-age=0, must-revalidate
+
+/:route/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/chu-han-realm-pages/:route/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/*.rsc
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Pages already sends nosniff and Referrer-Policy. Re-setting them would
+# join with ", ", so they are omitted.
+# Preview hosts: detach then set, so a Pages-injected noindex is not doubled.
+# Lighthouse SEO "is-crawlable" fails on these hosts by design.
+https://:project.pages.dev/*
+  ! X-Robots-Tag
+  X-Robots-Tag: noindex
+
+https://:version.:project.pages.dev/*
+  ! X-Robots-Tag
+  X-Robots-Tag: noindex
