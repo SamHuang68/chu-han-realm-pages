@@ -1,12 +1,4 @@
 # Cloudflare Pages only. GitHub Pages ignores this file.
-# The static export keeps basePath /chu-han-realm-pages so
-# https://samhuang68.github.io/chu-han-realm-pages/ keeps working.
-# On https://arcade.samhuang68.org/ the same files are published at the
-# apex, so serve the prefixed URLs from /* without changing the browser URL.
-# Exact page rules come first: /xiangqi 308s to /xiangqi/, and a proxied
-# 308 would drop the prefix. Point both forms at index.html.
-# https://developers.cloudflare.com/pages/configuration/redirects/
-
 /chu-han-realm-pages /index.html 200
 /chu-han-realm-pages/ /index.html 200
 /chu-han-realm-pages/banqi /banqi/index.html 200
