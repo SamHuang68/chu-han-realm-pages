@@ -1,29 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">大富翁 · 環遊世界</title>
+  <desc id="desc">原創世界城市微縮地標插畫：巴黎鐵塔、倫敦鐘塔、東京鐵塔、羅馬競技場、魚尾獅、雪梨歌劇院、台北101與自由女神。</desc>
   <defs>
-    <linearGradient id="sky" x2="1200" y2="800" gradientUnits="userSpaceOnUse"><stop stop-color="#dae9e4"/><stop offset="1" stop-color="#a9d3ce"/></linearGradient>
-    <linearGradient id="sea" x2="0" y2="660" gradientUnits="userSpaceOnUse"><stop stop-color="#72b9b9"/><stop offset="1" stop-color="#438d97"/></linearGradient>
-    <filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
-    <g id="house"><path d="M0 0 46-27 86-4 40 23Z" fill="#d58163"/><path d="M0 0v70l40 23V23Z" fill="#efe3c6"/><path d="m40 23 46-27v70L40 93Z" fill="#d9c5a5"/><path d="M-5 0 42-49 91-5 41 23Z" fill="#bc6b52"/><path d="M13 26v22l14 8V34Z" fill="#589093"/><path d="m53 34 17-10v22L53 56Z" fill="#589093"/><path d="M12 67v13l15 9V75Z" fill="#886347"/></g>
-    <g id="tree"><path d="M-3 4h6v39h-6z" fill="#94795e"/><ellipse cy="-3" rx="22" ry="29" fill="#82aa83"/><ellipse cx="-9" cy="-10" rx="14" ry="17" fill="#a6c69a"/></g>
-    <g id="tower"><path d="m0 0 51-29 52 29-52 30Z" fill="#eee6ce"/><path d="M0 0v129l51 30V30Z" fill="#dcaa79"/><path d="m51 30 52-30v129l-52 30Z" fill="#c28a66"/><path d="m9 27 33 19v18L9 45zm0 38 33 19v18L9 83zm0 38 33 19v18L9 121z" fill="#f5e5c5"/><path d="m61 43 32-18v18L61 61zm0 39 32-18v18l-32 18zm0 38 32-18v18l-32 18z" fill="#678c8a"/><path d="m-5-1 56-50 58 50-58 32Z" fill="#428580"/></g>
+    <linearGradient id="sky" x2="900" y2="800" gradientUnits="userSpaceOnUse"><stop stop-color="#f6edda"/><stop offset="1" stop-color="#c9e4dc"/></linearGradient>
+    <linearGradient id="ocean" x2="0" y2="800" gradientUnits="userSpaceOnUse"><stop stop-color="#92c7c2"/><stop offset="1" stop-color="#478e91"/></linearGradient>
+    <g id="tower" stroke="#957152" stroke-width="10" stroke-linejoin="round">
+      <path d="M0 0v45L-15 125-48 221h96L15 125 0 45" fill="#bb9266"/>
+      <path d="M-34 183h68M-20 135h40M-8 82H8M-39 221l39-52 39 52M-25 161l43-27M-16 133 24 161" stroke="#e5c398" stroke-width="6"/>
+      <path d="M-53 221h106M-36 182h72M-21 132h42"/>
+    </g>
   </defs>
   <path fill="url(#sky)" d="M0 0h1200v800H0z"/>
-  <circle cx="1030" cy="133" r="60" fill="#faf0cb" opacity=".8"/>
-  <path d="M0 486 318 275l480 25 402 208v292H0Z" fill="url(#sea)"/>
-  <g stroke="#c2e1d7" stroke-width="4" opacity=".55"><path d="m54 561 90 52m-3-141 63 36m729 65 106-60m-84 190 85-49m-894-9 68 39"/></g>
-  <ellipse cx="594" cy="625" rx="385" ry="106" fill="#326770" opacity=".28" filter="url(#shadow)"/>
-  <path d="m168 374 437-245 437 249v112L605 741 168 490Z" fill="#bdad91"/>
-  <path d="m168 374 437-245 437 249L605 630Z" fill="#fff1d7"/>
-  <path d="m235 375 370-207 371 209L605 589Z" fill="#d0debd" stroke="#f4e9d0" stroke-width="24"/>
-  <path d="m290 376 315-175 313 177-313 177Z" fill="#eddfbf"/>
-  <g stroke="#d5cbb2" stroke-width="3"><path d="m214 350 44 27m10-55 44 27m10-56 44 27m10-56 44 27m10-56 44 27m10-55 44 27m102-30-43 26m98 5-43 26m98 5-43 26m98 5-43 26m98 5-43 26m97 6-43 26m29 57-44-27m-10 58-44-27m-10 58-44-27m-10 58-44-27m-10 58-44-27m-10 58-44-27m-111 20 43-26m-97-5 43-26m-97-5 43-26m-97-5 43-26m-97-5 43-26m-97-5 43-26"/></g>
-  <path d="m386 414 126-72 97 57 91-53 80 48-171 98Z" fill="#88bbb4" stroke="#f8efda" stroke-width="12"/>
-  <use href="#house" transform="translate(360 285)"/><use href="#house" transform="translate(465 226) scale(.85)"/>
-  <use href="#tower" transform="translate(560 246)"/>
-  <use href="#house" transform="translate(711 284)"/><use href="#house" transform="translate(817 344) scale(.8)"/>
-  <use href="#house" transform="translate(620 434) scale(.9)"/>
-  <use href="#tree" transform="translate(510 400)"/><use href="#tree" transform="translate(438 423) scale(.85)"/><use href="#tree" transform="translate(758 427)"/><use href="#tree" transform="translate(694 499) scale(.85)"/><use href="#tree" transform="translate(660 278) scale(.7)"/>
-  <path d="m283 500 49 28 48-28-47 7Z" fill="#d0674e"/><path d="M332 506v-73l-40 51Z" fill="#fff8e7"/><path d="m337 443 25 53-25 9Z" fill="#e9bd69"/>
-  <g transform="translate(921 534) rotate(12)"><rect width="66" height="66" rx="14" fill="#fdf2d9" stroke="#dcc9a7" stroke-width="4"/><g fill="#386d72"><circle cx="18" cy="18" r="6"/><circle cx="48" cy="48" r="6"/><circle cx="33" cy="33" r="6"/></g></g>
-  <g transform="translate(969 592) rotate(-8)"><rect width="54" height="54" rx="12" fill="#df815f"/><g fill="#fff3d9"><circle cx="15" cy="15" r="5"/><circle cx="39" cy="15" r="5"/><circle cx="15" cy="39" r="5"/><circle cx="39" cy="39" r="5"/></g></g>
+  <circle cx="1020" cy="124" r="63" fill="#fff7d6"/>
+  <path d="M87 119h90m-61-19h90M826 74h90m-61-19h90" stroke="#fffdf0" stroke-width="16" stroke-linecap="round"/>
+  <ellipse cx="604" cy="531" rx="522" ry="209" fill="#365b6015"/>
+  <ellipse cx="600" cy="490" rx="515" ry="218" fill="#548f91"/>
+  <ellipse cx="600" cy="469" rx="515" ry="218" fill="url(#ocean)" stroke="#fff6df" stroke-width="12"/>
+  <g stroke="#d3e7d5" opacity=".6" stroke-width="2">
+    <ellipse cx="600" cy="469" rx="463" ry="170"/><ellipse cx="600" cy="469" rx="320" ry="189"/><ellipse cx="600" cy="469" rx="154" ry="194"/>
+    <path d="M108 469h985M151 395h897M143 546h916"/>
+  </g>
+  <g fill="#d9dcb6"><ellipse cx="257" cy="422" rx="85" ry="31"/><ellipse cx="424" cy="384" rx="62" ry="27"/><ellipse cx="603" cy="347" rx="71" ry="26"/><ellipse cx="807" cy="385" rx="107" ry="35"/><ellipse cx="949" cy="475" rx="63" ry="27"/><ellipse cx="761" cy="544" rx="121" ry="41"/><ellipse cx="545" cy="519" rx="72" ry="31"/><ellipse cx="346" cy="552" rx="80" ry="31"/></g>
+  <use href="#tower" transform="translate(257 198)"/>
+  <g transform="translate(424 149)">
+    <path d="M-26 79h52v155h-52z" fill="#c4a16c"/><path d="M6 79h20v155H6z" fill="#a98554"/>
+    <path d="M-34 40h68v65h-68z" fill="#e3c896"/><path d="m-36 40 36-55 36 55Z" fill="#457974"/><path d="M0-17v-19" stroke="#a58051" stroke-width="5"/>
+    <circle cy="70" r="23" fill="#fff4d9" stroke="#aa8757" stroke-width="4"/><path d="M0 52v20l13 8" stroke="#426360" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-14 121v94m15-94v94m14-94v94" stroke="#efd9a8" stroke-width="4"/>
+  </g>
+  <g transform="translate(603 174) scale(.76)"><use href="#tower" style="filter:sepia(.3)"/><path d="M-15 126h30M-34 184h68" stroke="#fff4e2" stroke-width="11"/><path d="m-12 48-10 87M12 48l10 87" stroke="#c9674e" stroke-width="8"/></g>
+  <g transform="translate(807 315)">
+    <ellipse rx="83" ry="36" fill="#9b8463"/><path d="M-83 0v58c0 47 166 47 166 0V0c-8 49-158 49-166 0Z" fill="#e2bd8b"/>
+    <ellipse rx="83" ry="36" stroke="#f5dbb3" stroke-width="11"/>
+    <path d="M-79 27q80 60 158 0" stroke="#f5dbb3" stroke-width="7"/>
+    <g stroke="#947252" stroke-width="10" stroke-linecap="round"><path d="M-64 33v13m25 0v16m26-11v16m27-16v16m27-21v16m25-28v13"/></g>
+  </g>
+  <g transform="translate(949 414)">
+    <path d="M-14 51q-10-39 0-70c38-25 52 8 26 25L4 54q-14 8-40 2Z" fill="#fff5dc"/>
+    <circle cx="14" cy="-16" r="21" fill="#e3dfc6"/><circle cx="24" cy="-15" r="15" fill="#fff5dc"/><circle cx="29" cy="-20" r="2.5" fill="#436b65"/>
+    <path d="M36-12q34 6 35 54" stroke="#d4f1e7" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(756 513)">
+    <path d="m-108 27 123-18 102 31-126 32-99-22z" fill="#bc9870"/>
+    <path d="M-82 30q-17-62-2-117 58 28 75 91Z" fill="#fff8e4"/>
+    <path d="M-23 31q-7-91 18-124 52 52 48 116Z" fill="#ede7d4"/>
+    <path d="M37 32q6-65 27-92 39 44 42 75Z" fill="#fff8e4"/>
+    <path d="M-69 32v18m19-22v18m19-22v18m20-22v18m20-22v18m20-22v18m20-22v18m20-22v18m20-22v18" stroke="#558c88" stroke-width="8"/>
+  </g>
+  <g transform="translate(545 500)" fill="#5b9992" stroke="#a2caba" stroke-width="4">
+    <path d="M-29-15h58v34h-58z"/><path d="m-22-15-5-25h54l-5 25zm0-25-5-25h54l-5 25zm0-25-5-25h54l-5 25zm0-25-5-25h54l-5 25zm0-25-5-25h54l-5 25zm0-25-5-25h54l-5 25zm0-25-5-25h54l-5 25zm0-25-5-25h54l-5 25Z"/>
+    <path d="M-10-215v-20h20v20M0-235v-31" stroke="#609c90"/>
+  </g>
+  <g transform="translate(346 534)">
+    <path d="M-40 0h80v23h-80z" fill="#c2a47c"/><path d="M-25-28h50V0h-50z" fill="#e1cda7"/>
+    <path d="m-20-30 12-77h18l15 77Z" fill="#81b59a"/>
+    <circle cy="-121" r="14" fill="#8dbea1"/><path d="M6-104 27-127l5-36" stroke="#8dbea1" stroke-width="12" stroke-linejoin="round"/>
+    <path d="m-7-104-19 36 16 1" stroke="#76a98f" stroke-width="12"/>
+    <path d="M-25-87h22v28h-22z" fill="#669b85"/>
+    <path d="M-15-132-6-150m5 13 1-18m6 18 9-16m0 20 10-11" stroke="#8dbea1" stroke-width="5"/>
+    <path d="m24-163 8-27 9 27Z" fill="#e9b656"/>
+  </g>
+  <g fill="#365a56" font-family="Microsoft JhengHei,Noto Sans TC,sans-serif" text-anchor="middle">
+    <text x="600" y="110" font-size="56" font-weight="700" letter-spacing="14">大富翁</text>
+    <text x="600" y="153" font-size="16" letter-spacing="7">AROUND THE WORLD</text>
+    <text x="600" y="742" font-size="21" letter-spacing="5">選一座城市，展開你的環球旅程。</text>
+  </g>
 </svg>
