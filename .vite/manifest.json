@@ -70,7 +70,7 @@
     "name": "xiangqiSceneConfig"
   },
   "app/GameExperience.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/GameExperience-DEQRXgqu.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/GameExperience-CeFxFuVR.js",
     "name": "GameExperience",
     "src": "app/GameExperience.tsx",
     "isDynamicEntry": true,
@@ -82,7 +82,7 @@
     ]
   },
   "app/GameMusic.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-hO_6GZfD.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-KnYm3Aza.js",
     "name": "GameMusic",
     "src": "app/GameMusic.tsx",
     "isDynamicEntry": true,
@@ -125,7 +125,7 @@
     ]
   },
   "app/XiangqiScene.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/XiangqiScene-B1LUT5gW.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/XiangqiScene-BMPPaUck.js",
     "name": "XiangqiScene",
     "src": "app/XiangqiScene.tsx",
     "isDynamicEntry": true,
@@ -439,7 +439,7 @@
     ]
   },
   "app/xiangqi/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-CRVm01HG.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-BPQtQpwo.js",
     "name": "page",
     "src": "app/xiangqi/page.tsx",
     "isDynamicEntry": true,
@@ -460,11 +460,11 @@
       "app/XiangqiScene.tsx"
     ],
     "css": [
-      "chu-han-realm-pages/_next/static/css/page.CWxMtW60.css"
+      "chu-han-realm-pages/_next/static/css/page.Dywq8rBj.css"
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-BU9LzqF4.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-5BmSmsWH.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -476,7 +476,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "chu-han-realm-pages/_next/static/chunks/index-D27o_IfH.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/index-CyIXKzDw.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
