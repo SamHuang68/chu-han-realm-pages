@@ -1,4 +1,4 @@
-const CACHE = "realm-of-xiangqi-v19";
+const CACHE = "realm-of-xiangqi-v20";
 const BASE_PATH = new URL(self.registration.scope).pathname.replace(/\/$/, "");
 const scoped = (path) => `${BASE_PATH}${path}` || "/";
 const SHELL = [
@@ -9,6 +9,7 @@ const SHELL = [
   "/brick-breaker/",
   "/chess/",
   "/go/",
+  "/harbor-city/",
   "/gomoku/",
   "/mahjong13/",
   "/mahjong16/",
@@ -30,6 +31,14 @@ const SHELL = [
 
 function cacheable(response) {
   return response.ok && response.type === "basic";
+}
+
+function cacheResponse(event, request, response) {
+  if (!cacheable(response)) return;
+  // Clone before returning the response: the page can consume its body while
+  // CacheStorage.open is pending. Keep the worker alive through the write.
+  const copy = response.clone();
+  event.waitUntil(caches.open(CACHE).then((cache) => cache.put(request, copy)).catch(() => undefined));
 }
 
 async function precache(cache, path) {
@@ -58,8 +67,7 @@ self.addEventListener("fetch", (event) => {
       try {
         const response = await fetch(request);
         if (cacheable(response)) {
-          const copy = response.clone();
-          void caches.open(CACHE).then((cache) => cache.put(request, copy));
+          cacheResponse(event, request, response);
           return response;
         }
         const cached = await caches.match(request);
@@ -72,7 +80,7 @@ self.addEventListener("fetch", (event) => {
     return;
   }
   event.respondWith(caches.match(request).then((cached) => cached || fetch(request).then((response) => {
-    if (cacheable(response)) void caches.open(CACHE).then((cache) => cache.put(request, response.clone()));
+    cacheResponse(event, request, response);
     return response;
   })));
 });
