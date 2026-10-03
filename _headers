@@ -28,18 +28,18 @@
 /chu-han-realm-pages/_next/static/ai.worker-CWdMmKDV.js
   Cache-Control: public, max-age=31536000, immutable
 
-/_next/static/gomoku.worker-ox2f9J7z.js
+/_next/static/gomoku.worker-CILvUnJk.js
   Cache-Control: public, max-age=31536000, immutable
 
-/chu-han-realm-pages/_next/static/gomoku.worker-ox2f9J7z.js
+/chu-han-realm-pages/_next/static/gomoku.worker-CILvUnJk.js
   Cache-Control: public, max-age=31536000, immutable
 
 # Per-build directory. Contents are _buildManifest.js and _ssgManifest.js;
 # the UUID path changes with the build, so immutable does not pin a later build.
-/_next/static/315b9e91-c723-4919-ac84-1776606afbbf/*
+/_next/static/3b5ea6ab-9130-474c-97ea-18cbc7f16d27/*
   Cache-Control: public, max-age=31536000, immutable
 
-/chu-han-realm-pages/_next/static/315b9e91-c723-4919-ac84-1776606afbbf/*
+/chu-han-realm-pages/_next/static/3b5ea6ab-9130-474c-97ea-18cbc7f16d27/*
   Cache-Control: public, max-age=31536000, immutable
 
 # One path segment only. Does not match chunks/, css/, fonts/, or workers.
