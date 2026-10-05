@@ -82,7 +82,7 @@
     "name": "xiangqiSceneConfig"
   },
   "app/GameExperience.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/GameExperience-DAy_PjCJ.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/GameExperience-DGjdAULU.js",
     "name": "GameExperience",
     "src": "app/GameExperience.tsx",
     "isDynamicEntry": true,
@@ -94,7 +94,7 @@
     ]
   },
   "app/GameMusic.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-CQGM4h6Q.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-CRc880Aq.js",
     "name": "GameMusic",
     "src": "app/GameMusic.tsx",
     "isDynamicEntry": true,
@@ -282,7 +282,7 @@
     ]
   },
   "app/harbor-city/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-Dp0irSew.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-CYY8t2ke.js",
     "name": "page",
     "src": "app/harbor-city/page.tsx",
     "isDynamicEntry": true,
@@ -483,7 +483,7 @@
     ]
   },
   "app/xiangqi/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-BSdnIgVI.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-BDv5PRJY.js",
     "name": "page",
     "src": "app/xiangqi/page.tsx",
     "isDynamicEntry": true,
@@ -508,7 +508,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-dVmlYQ1C.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-FyTmE7R8.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -520,7 +520,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "chu-han-realm-pages/_next/static/chunks/index-Bv2FAlwC.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/index-DiFuavn2.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
