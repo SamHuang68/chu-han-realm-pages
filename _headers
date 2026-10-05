@@ -36,10 +36,10 @@
 
 # Per-build directory. Contents are _buildManifest.js and _ssgManifest.js;
 # the UUID path changes with the build, so immutable does not pin a later build.
-/_next/static/cf4e5b54-6512-45ca-9192-e0afbfcf4906/*
+/_next/static/3c98174a-57e1-4ac7-a723-a3b96b78f145/*
   Cache-Control: public, max-age=31536000, immutable
 
-/chu-han-realm-pages/_next/static/cf4e5b54-6512-45ca-9192-e0afbfcf4906/*
+/chu-han-realm-pages/_next/static/3c98174a-57e1-4ac7-a723-a3b96b78f145/*
   Cache-Control: public, max-age=31536000, immutable
 
 # One path segment only. Does not match chunks/, css/, fonts/, or workers.
