@@ -1,10 +1,22 @@
 {
-  "_ContactShadows-CH85EaDy.js": {
-    "file": "chu-han-realm-pages/_next/static/chunks/ContactShadows-CH85EaDy.js",
+  "../../../../Documents/Codex/2026-10-02/task-4/source/node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-mYQLeWBZ.js",
+    "name": "layout-segment-context",
+    "src": "../../../../Documents/Codex/2026-10-02/task-4/source/node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-D0yXDDFE.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-Dm2LD62T.js",
+      "_navigation-errors-Diy3F-65.js"
+    ]
+  },
+  "_ContactShadows-BjvyrPPD.js": {
+    "file": "chu-han-realm-pages/_next/static/chunks/ContactShadows-BjvyrPPD.js",
     "name": "ContactShadows",
     "imports": [
       "_rolldown-runtime-D0yXDDFE.js",
-      "_react-three-fiber.esm-UnacSVU-.js",
+      "_react-three-fiber.esm-BX06Xg76.js",
       "_framework-Dm2LD62T.js"
     ]
   },
@@ -62,8 +74,8 @@
     "file": "chu-han-realm-pages/_next/static/chunks/persistence-BgCbzlBQ.js",
     "name": "persistence"
   },
-  "_react-three-fiber.esm-UnacSVU-.js": {
-    "file": "chu-han-realm-pages/_next/static/chunks/react-three-fiber.esm-UnacSVU-.js",
+  "_react-three-fiber.esm-BX06Xg76.js": {
+    "file": "chu-han-realm-pages/_next/static/chunks/react-three-fiber.esm-BX06Xg76.js",
     "name": "react-three-fiber.esm",
     "imports": [
       "_rolldown-runtime-D0yXDDFE.js",
@@ -95,7 +107,7 @@
     "name": "xiangqiSceneConfig"
   },
   "app/GameExperience.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/GameExperience-BbvLM_WD.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/GameExperience-CO-VzTOc.js",
     "name": "GameExperience",
     "src": "app/GameExperience.tsx",
     "isDynamicEntry": true,
@@ -107,7 +119,7 @@
     ]
   },
   "app/GameMusic.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-CjOfQF_o.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-WHe9EFX9.js",
     "name": "GameMusic",
     "src": "app/GameMusic.tsx",
     "isDynamicEntry": true,
@@ -150,7 +162,7 @@
     ]
   },
   "app/XiangqiScene.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/XiangqiScene-DQ0S7tNM.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/XiangqiScene-5L7n1nWJ.js",
     "name": "XiangqiScene",
     "src": "app/XiangqiScene.tsx",
     "isDynamicEntry": true,
@@ -158,8 +170,8 @@
       "_rolldown-runtime-D0yXDDFE.js",
       "_xiangqiSceneConfig-DG3_81GG.js",
       "_sitePath-yR_Sue8-.js",
-      "_ContactShadows-CH85EaDy.js",
-      "_react-three-fiber.esm-UnacSVU-.js",
+      "_ContactShadows-BjvyrPPD.js",
+      "_react-three-fiber.esm-BX06Xg76.js",
       "_framework-Dm2LD62T.js"
     ]
   },
@@ -284,19 +296,19 @@
     ]
   },
   "app/harbor-city/CityDice3D.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/CityDice3D-DXVg5ANF.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/CityDice3D-DopAN7N7.js",
     "name": "CityDice3D",
     "src": "app/harbor-city/CityDice3D.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-D0yXDDFE.js",
       "_tabletop-CxrAo2if.js",
-      "_react-three-fiber.esm-UnacSVU-.js",
+      "_react-three-fiber.esm-BX06Xg76.js",
       "_framework-Dm2LD62T.js"
     ]
   },
   "app/harbor-city/CityScene.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/CityScene-BOg4oIY7.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/CityScene-6uDL3FwH.js",
     "name": "CityScene",
     "src": "app/harbor-city/CityScene.tsx",
     "isDynamicEntry": true,
@@ -304,13 +316,13 @@
       "_rolldown-runtime-D0yXDDFE.js",
       "app/harbor-city/CityDice3D.tsx",
       "_events-BadMaB5C.js",
-      "_ContactShadows-CH85EaDy.js",
-      "_react-three-fiber.esm-UnacSVU-.js",
+      "_ContactShadows-BjvyrPPD.js",
+      "_react-three-fiber.esm-BX06Xg76.js",
       "_framework-Dm2LD62T.js"
     ]
   },
   "app/harbor-city/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-Cl-RuGbU.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-B3OqD-xB.js",
     "name": "page",
     "src": "app/harbor-city/page.tsx",
     "isDynamicEntry": true,
@@ -513,7 +525,7 @@
     ]
   },
   "app/xiangqi/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-DOaehKyH.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-B9SgUpmj.js",
     "name": "page",
     "src": "app/xiangqi/page.tsx",
     "isDynamicEntry": true,
@@ -534,23 +546,11 @@
       "app/XiangqiScene.tsx"
     ],
     "css": [
-      "chu-han-realm-pages/_next/static/css/page.DlW2bEmt.css"
-    ]
-  },
-  "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-kqjE6vZ6.js",
-    "name": "layout-segment-context",
-    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "_rolldown-runtime-D0yXDDFE.js",
-      "virtual:vinext-app-browser-entry",
-      "_framework-Dm2LD62T.js",
-      "_navigation-errors-Diy3F-65.js"
+      "chu-han-realm-pages/_next/static/css/page.DwWylKwT.css"
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "chu-han-realm-pages/_next/static/chunks/index-Cnc3hBdE.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/index-CldzUJSp.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -560,10 +560,10 @@
       "_navigation-errors-Diy3F-65.js"
     ],
     "dynamicImports": [
-      "virtual:vinext-app-browser-entry",
-      "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "../../../../Documents/Codex/2026-10-02/task-4/source/node_modules/vinext/dist/shims/layout-segment-context.js",
       "app/RegisterServiceWorker.tsx",
       "app/billiards/page.tsx",
+      "virtual:vinext-app-browser-entry",
       "app/MahjongGame.tsx",
       "app/sudoku/page.tsx",
       "app/twenty-forty-eight/page.tsx",
