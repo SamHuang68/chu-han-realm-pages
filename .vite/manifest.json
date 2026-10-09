@@ -1,6 +1,6 @@
 {
   "../../../../Documents/Codex/2026-10-02/task-4/source/node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-Gp8tyKmg.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-baIdyFDr.js",
     "name": "layout-segment-context",
     "src": "../../../../Documents/Codex/2026-10-02/task-4/source/node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -107,7 +107,7 @@
     "name": "xiangqiSceneConfig"
   },
   "app/GameExperience.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/GameExperience-C6ykIkqi.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/GameExperience-DziYeYFf.js",
     "name": "GameExperience",
     "src": "app/GameExperience.tsx",
     "isDynamicEntry": true,
@@ -119,7 +119,7 @@
     ]
   },
   "app/GameMusic.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-DuYRM4xV.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-DIl4cMhT.js",
     "name": "GameMusic",
     "src": "app/GameMusic.tsx",
     "isDynamicEntry": true,
@@ -322,7 +322,7 @@
     ]
   },
   "app/harbor-city/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-BDzxslH-.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-CTbPUeJg.js",
     "name": "page",
     "src": "app/harbor-city/page.tsx",
     "isDynamicEntry": true,
@@ -528,7 +528,7 @@
     ]
   },
   "app/xiangqi/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-CeenoWi4.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-Ba7afkSC.js",
     "name": "page",
     "src": "app/xiangqi/page.tsx",
     "isDynamicEntry": true,
@@ -553,7 +553,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "chu-han-realm-pages/_next/static/chunks/index-CSGAFG5x.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/index-CR6Ht3yo.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
