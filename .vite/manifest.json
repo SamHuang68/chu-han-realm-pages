@@ -1,6 +1,6 @@
 {
   "../../../../Documents/Codex/2026-10-02/task-4/source/node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-CYGpLU8X.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/layout-segment-context-CkgjcTHz.js",
     "name": "layout-segment-context",
     "src": "../../../../Documents/Codex/2026-10-02/task-4/source/node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -137,7 +137,7 @@
     "name": "xiangqiSceneConfig"
   },
   "app/GameExperience.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/GameExperience-C4Exia9R.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/GameExperience-CWAnvnXc.js",
     "name": "GameExperience",
     "src": "app/GameExperience.tsx",
     "isDynamicEntry": true,
@@ -149,7 +149,7 @@
     ]
   },
   "app/GameMusic.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-B5HuXwdE.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/GameMusic-BC5AbmlU.js",
     "name": "GameMusic",
     "src": "app/GameMusic.tsx",
     "isDynamicEntry": true,
@@ -371,7 +371,7 @@
     ]
   },
   "app/harbor-city/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-DlQfE0Ls.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-WnwLmFQb.js",
     "name": "page",
     "src": "app/harbor-city/page.tsx",
     "isDynamicEntry": true,
@@ -394,7 +394,7 @@
     ]
   },
   "app/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-DLPwJxxh.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-Cg5A2DR-.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
@@ -585,7 +585,7 @@
     ]
   },
   "app/xiangqi/page.tsx": {
-    "file": "chu-han-realm-pages/_next/static/chunks/page-D9-AIQao2.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/page-CGTnY3Ho2.js",
     "name": "page",
     "src": "app/xiangqi/page.tsx",
     "isDynamicEntry": true,
@@ -610,7 +610,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "chu-han-realm-pages/_next/static/chunks/index-B-qSlHdk.js",
+    "file": "chu-han-realm-pages/_next/static/chunks/index-PxShyOe2.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
