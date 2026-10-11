@@ -135,3 +135,10 @@ https://:project.pages.dev/*
 https://:version.:project.pages.dev/*
   ! X-Robots-Tag
   X-Robots-Tag: noindex
+
+# 本次大富翁建置資產；既有遊戲快取規則完整保留。
+/_next/static/56530dc2-138d-4681-b667-3a9262dd3eb1/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/chu-han-realm-pages/_next/static/56530dc2-138d-4681-b667-3a9262dd3eb1/*
+  Cache-Control: public, max-age=31536000, immutable
